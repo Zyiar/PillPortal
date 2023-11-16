@@ -47,6 +47,23 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['edit_product'])) {
         tr {
             background-color: #dddddd;
         }
+
+        .redirect-button {
+            display: block;
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #333;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            text-decoration: none;
+            text-align: center;
+        }
+
+        .redirect-button:hover {
+            background-color: #555;
+        }
     </style>
 </head>
 <body>
@@ -87,5 +104,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['edit_product'])) {
         <input type="number" step="0.01" name="product_price" placeholder="Product Price" required>
         <input type="submit" value="Add Product">
     </form>
+
+    <a href="admin_page.php" class="redirect-button">Go back to Admin Page</a>
 </body>
 </html>

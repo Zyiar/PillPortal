@@ -1,0 +1,84 @@
+/* Reset some default styles */
+body, h1, h2, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+header {
+  padding: 20px;
+  background-color: #f1f1f1;
+}
+
+header img {
+  max-width: 100px; /* Set the maximum width of the logo to 100px */
+  height: auto; /* Maintain the aspect ratio while resizing the logo */
+  display: block; /* Make the logo behave as a block element */
+  margin: 0 auto; /* Center the logo horizontally within the header */
+}
+
+main {
+  padding: 20px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.contact-info, .address, .social-media, .contact-form, .message-us {
+  margin-bottom: 20px;
+}
+
+a {
+  color: #007BFF;
+}
+
+.map {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+textarea {
+  width: 100%;
+  resize: vertical;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+footer {
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+}
+
+.additional-info {
+  list-style-type: none;
+}
+
+.additional-info li {
+  display: inline-block;
+  margin: 0 10px;
+}
