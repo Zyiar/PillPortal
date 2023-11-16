@@ -18,7 +18,7 @@
     .text-footer {
         font-size: 14px; /* Adjust the font size as needed */
     }
-</style>
+</style> 
 
 </head>
 <body>
