@@ -1,9 +1,15 @@
+<?php
+$pageTitle = "Admin Dashboard";
+?>
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Admin Dashboard</title>
+  <title><? echo $pageTitle; ?></title>
   <style>
     <style>
+        *{
+          margin-left: 20px;
+        }
         td {
             padding: 4px;
             text-align: left;

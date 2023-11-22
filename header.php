@@ -1,3 +1,7 @@
+<?php
+$pageTitle = "header";
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
